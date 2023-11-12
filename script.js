@@ -60,7 +60,7 @@ const getChatResponse = async (incomingChatDiv) => {
         pElement.textContent = response.choices[0].text.trim();
     } catch (error) { // Add error class to the paragraph element and set error text
         pElement.classList.add("error");
-        pElement.textContent = "متاسفیم! ارتباط باسرور قطع شد لطفا مجددا تلاش کنید.";
+        pElement.textContent = "متاسفیم! ما در حال بروز رسانی هستیم لطفا تا اطلاع ثانوی منتظر بمانید.";
     }
 
     // Remove the typing animation, append the paragraph element and save the chats to local storage
