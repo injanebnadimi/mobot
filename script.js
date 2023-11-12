@@ -17,7 +17,7 @@ const loadDataFromLocalstorage = () => {
     const defaultText = `<div class="default-text">
                             <h1>موبات</h1>
                             <p>مکالمه رو شروع کن.<br> به قدرت هوش مصنوعی ایمان بیار. </p>
-                            <p style="font-size: 15px;"> برنامه نویس : <a style="text-decoration: none; color: #75AC9D;" href="https:nadmi.ir/"> امیرمسعود ندیمی</a></p>
+                            <p style="font-size: 15px;"> برنامه نویس : <a style="text-decoration: none; color: #75AC9D;" href="https://nadmi.ir/"> امیرمسعود ندیمی</a></p>
                             <p style="font-size: 15px;"> نسخه : ۳.۱.۰ </p>
                         </div>`
 
