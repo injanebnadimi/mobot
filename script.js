@@ -5,7 +5,7 @@ const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
 let userText = null;
-const API_KEY = "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"; // Paste your API key here
+const API_KEY = "aa-ZahmLnHgxWbYACatXGF1iTBB7RBXV346tu7j6E3QSaZ2dg0g"; // Paste your API key here
 
 const loadDataFromLocalstorage = () => {
     // Load saved chats and theme from local storage and apply/add on the page
@@ -34,7 +34,7 @@ const createChatElement = (content, className) => {
 }
 
 const getChatResponse = async (incomingChatDiv) => {
-    const API_URL = "https://api.openai.com/v1/completions";
+    const API_URL = "https://api.avalapis.ir/v1";
     const pElement = document.createElement("p");
 
     // Define the properties and data for the API request
