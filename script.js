@@ -34,7 +34,7 @@ const createChatElement = (content, className) => {
 }
 
 const getChatResponse = async (incomingChatDiv) => {
-    const API_URL = "https://api.avalapis.ir/v1";
+    const API_URL = "https://api.avalai.ir/v1/chat";
     const pElement = document.createElement("p");
 
     // Define the properties and data for the API request
